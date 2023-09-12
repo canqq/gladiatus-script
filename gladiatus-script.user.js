@@ -13,6 +13,9 @@
 // @resource     customCSS_global  https://raw.githubusercontent.com/ebodziony/gladiatus-script/master/global.css?ver=2.6.4
 // ==/UserScript==
 
+setInterval(function() {
+  location.reload();
+}, 60000); // 60000 milisaniye (1 dakika)
 
 (function() {
     'use strict';
